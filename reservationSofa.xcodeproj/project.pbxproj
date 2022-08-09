@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E702ADAE28A27C0C009527BD /* reservationSofaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702ADAD28A27C0C009527BD /* reservationSofaApp.swift */; };
+		E702ADB028A27C0C009527BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702ADAF28A27C0C009527BD /* ContentView.swift */; };
+		E702ADB228A27C0D009527BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E702ADB128A27C0D009527BD /* Assets.xcassets */; };
+		E702ADB528A27C0D009527BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E702ADB428A27C0D009527BD /* Preview Assets.xcassets */; };
+		E702ADBF28A27C0D009527BD /* reservationSofaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702ADBE28A27C0D009527BD /* reservationSofaTests.swift */; };
+		E702ADC928A27C0D009527BD /* reservationSofaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702ADC828A27C0D009527BD /* reservationSofaUITests.swift */; };
+		E702ADCB28A27C0D009527BD /* reservationSofaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E702ADCA28A27C0D009527BD /* reservationSofaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E702ADBB28A27C0D009527BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E702ADA228A27C0C009527BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E702ADA928A27C0C009527BD;
+			remoteInfo = reservationSofa;
+		};
+		E702ADC528A27C0D009527BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E702ADA228A27C0C009527BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E702ADA928A27C0C009527BD;
+			remoteInfo = reservationSofa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E702ADAA28A27C0C009527BD /* reservationSofa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = reservationSofa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E702ADAD28A27C0C009527BD /* reservationSofaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationSofaApp.swift; sourceTree = "<group>"; };
+		E702ADAF28A27C0C009527BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E702ADB128A27C0D009527BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E702ADB428A27C0D009527BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E702ADBA28A27C0D009527BD /* reservationSofaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reservationSofaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E702ADBE28A27C0D009527BD /* reservationSofaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationSofaTests.swift; sourceTree = "<group>"; };
+		E702ADC428A27C0D009527BD /* reservationSofaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = reservationSofaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E702ADC828A27C0D009527BD /* reservationSofaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationSofaUITests.swift; sourceTree = "<group>"; };
+		E702ADCA28A27C0D009527BD /* reservationSofaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reservationSofaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E702ADA728A27C0C009527BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E702ADB728A27C0D009527BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E702ADC128A27C0D009527BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E702ADA128A27C0C009527BD = {
+			isa = PBXGroup;
+			children = (
+				E702ADAC28A27C0C009527BD /* reservationSofa */,
+				E702ADBD28A27C0D009527BD /* reservationSofaTests */,
+				E702ADC728A27C0D009527BD /* reservationSofaUITests */,
+				E702ADAB28A27C0C009527BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E702ADAB28A27C0C009527BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E702ADAA28A27C0C009527BD /* reservationSofa.app */,
+				E702ADBA28A27C0D009527BD /* reservationSofaTests.xctest */,
+				E702ADC428A27C0D009527BD /* reservationSofaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E702ADAC28A27C0C009527BD /* reservationSofa */ = {
+			isa = PBXGroup;
+			children = (
+				E702ADAD28A27C0C009527BD /* reservationSofaApp.swift */,
+				E702ADAF28A27C0C009527BD /* ContentView.swift */,
+				E702ADB128A27C0D009527BD /* Assets.xcassets */,
+				E702ADB328A27C0D009527BD /* Preview Content */,
+			);
+			path = reservationSofa;
+			sourceTree = "<group>";
+		};
+		E702ADB328A27C0D009527BD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E702ADB428A27C0D009527BD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E702ADBD28A27C0D009527BD /* reservationSofaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E702ADBE28A27C0D009527BD /* reservationSofaTests.swift */,
+			);
+			path = reservationSofaTests;
+			sourceTree = "<group>";
+		};
+		E702ADC728A27C0D009527BD /* reservationSofaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E702ADC828A27C0D009527BD /* reservationSofaUITests.swift */,
+				E702ADCA28A27C0D009527BD /* reservationSofaUITestsLaunchTests.swift */,
+			);
+			path = reservationSofaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E702ADA928A27C0C009527BD /* reservationSofa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E702ADCE28A27C0D009527BD /* Build configuration list for PBXNativeTarget "reservationSofa" */;
+			buildPhases = (
+				E702ADA628A27C0C009527BD /* Sources */,
+				E702ADA728A27C0C009527BD /* Frameworks */,
+				E702ADA828A27C0C009527BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = reservationSofa;
+			productName = reservationSofa;
+			productReference = E702ADAA28A27C0C009527BD /* reservationSofa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E702ADB928A27C0D009527BD /* reservationSofaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E702ADD128A27C0D009527BD /* Build configuration list for PBXNativeTarget "reservationSofaTests" */;
+			buildPhases = (
+				E702ADB628A27C0D009527BD /* Sources */,
+				E702ADB728A27C0D009527BD /* Frameworks */,
+				E702ADB828A27C0D009527BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E702ADBC28A27C0D009527BD /* PBXTargetDependency */,
+			);
+			name = reservationSofaTests;
+			productName = reservationSofaTests;
+			productReference = E702ADBA28A27C0D009527BD /* reservationSofaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E702ADC328A27C0D009527BD /* reservationSofaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E702ADD428A27C0D009527BD /* Build configuration list for PBXNativeTarget "reservationSofaUITests" */;
+			buildPhases = (
+				E702ADC028A27C0D009527BD /* Sources */,
+				E702ADC128A27C0D009527BD /* Frameworks */,
+				E702ADC228A27C0D009527BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E702ADC628A27C0D009527BD /* PBXTargetDependency */,
+			);
+			name = reservationSofaUITests;
+			productName = reservationSofaUITests;
+			productReference = E702ADC428A27C0D009527BD /* reservationSofaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E702ADA228A27C0C009527BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					E702ADA928A27C0C009527BD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					E702ADB928A27C0D009527BD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E702ADA928A27C0C009527BD;
+					};
+					E702ADC328A27C0D009527BD = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = E702ADA928A27C0C009527BD;
+					};
+				};
+			};
+			buildConfigurationList = E702ADA528A27C0C009527BD /* Build configuration list for PBXProject "reservationSofa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E702ADA128A27C0C009527BD;
+			productRefGroup = E702ADAB28A27C0C009527BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E702ADA928A27C0C009527BD /* reservationSofa */,
+				E702ADB928A27C0D009527BD /* reservationSofaTests */,
+				E702ADC328A27C0D009527BD /* reservationSofaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E702ADA828A27C0C009527BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E702ADB528A27C0D009527BD /* Preview Assets.xcassets in Resources */,
+				E702ADB228A27C0D009527BD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E702ADB828A27C0D009527BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E702ADC228A27C0D009527BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E702ADA628A27C0C009527BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E702ADB028A27C0C009527BD /* ContentView.swift in Sources */,
+				E702ADAE28A27C0C009527BD /* reservationSofaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E702ADB628A27C0D009527BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E702ADBF28A27C0D009527BD /* reservationSofaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E702ADC028A27C0D009527BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E702ADCB28A27C0D009527BD /* reservationSofaUITestsLaunchTests.swift in Sources */,
+				E702ADC928A27C0D009527BD /* reservationSofaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E702ADBC28A27C0D009527BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E702ADA928A27C0C009527BD /* reservationSofa */;
+			targetProxy = E702ADBB28A27C0D009527BD /* PBXContainerItemProxy */;
+		};
+		E702ADC628A27C0D009527BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E702ADA928A27C0C009527BD /* reservationSofa */;
+			targetProxy = E702ADC528A27C0D009527BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E702ADCC28A27C0D009527BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E702ADCD28A27C0D009527BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E702ADCF28A27C0D009527BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"reservationSofa/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZW3DT89JM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunafei.reservationSofa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E702ADD028A27C0D009527BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"reservationSofa/Preview Content\"";
+				DEVELOPMENT_TEAM = 4ZW3DT89JM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunafei.reservationSofa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E702ADD228A27C0D009527BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZW3DT89JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunafei.reservationSofaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservationSofa.app/reservationSofa";
+			};
+			name = Debug;
+		};
+		E702ADD328A27C0D009527BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZW3DT89JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunafei.reservationSofaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/reservationSofa.app/reservationSofa";
+			};
+			name = Release;
+		};
+		E702ADD528A27C0D009527BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZW3DT89JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunafei.reservationSofaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reservationSofa;
+			};
+			name = Debug;
+		};
+		E702ADD628A27C0D009527BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4ZW3DT89JM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lunafei.reservationSofaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = reservationSofa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E702ADA528A27C0C009527BD /* Build configuration list for PBXProject "reservationSofa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E702ADCC28A27C0D009527BD /* Debug */,
+				E702ADCD28A27C0D009527BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E702ADCE28A27C0D009527BD /* Build configuration list for PBXNativeTarget "reservationSofa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E702ADCF28A27C0D009527BD /* Debug */,
+				E702ADD028A27C0D009527BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E702ADD128A27C0D009527BD /* Build configuration list for PBXNativeTarget "reservationSofaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E702ADD228A27C0D009527BD /* Debug */,
+				E702ADD328A27C0D009527BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E702ADD428A27C0D009527BD /* Build configuration list for PBXNativeTarget "reservationSofaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E702ADD528A27C0D009527BD /* Debug */,
+				E702ADD628A27C0D009527BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E702ADA228A27C0C009527BD /* Project object */;
+}
